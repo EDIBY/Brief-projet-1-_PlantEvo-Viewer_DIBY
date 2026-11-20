@@ -1,0 +1,7 @@
+<svg width="245" height="170" viewBox="0 0 245 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="122.5" cy="85" rx="122.5" ry="85" fill="#F0F8EA" fill-opacity="0.2"/>
+<mask id="stroke0_78_28" fill="white">
+<path d="M245 85C245 131.944 190.155 170 122.5 170C54.8451 170 0 131.944 0 85C0 38.0558 54.8451 0 122.5 0C190.155 0 245 38.0558 245 85Z"/>
+</mask>
+<ellipse cx="122.5" cy="85" rx="122.5" ry="85" stroke-width="2" stroke="black" mask="url(#stroke0_78_28)"/>
+</svg>
