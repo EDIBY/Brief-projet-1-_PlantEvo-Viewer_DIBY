@@ -21,6 +21,11 @@ body {
     font-family:var(--police--texts);    
 }
 
+/*Pour empecher le texte de toucher le bord sur un petit ecran */
+main{
+    pading:0 1rem ;
+}
+
 /*Definit la coleur et met en gras le text contenu dans <h1></h1> de notre page htlm*/
 
 h1 {
