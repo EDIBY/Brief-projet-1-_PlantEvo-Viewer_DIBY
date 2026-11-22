@@ -10,6 +10,7 @@
     --vert-paragraphe:#131f17;
     --vert-st: #55A963;
     --limit-mots-ligne: 70ch;
+    --border: #131f17;
 }
 
 
@@ -53,4 +54,13 @@ p {
 footer {
     color: var(--vert-pied-page);
     text-align: center;
+}
+
+/*Distinguer les artciles pour mieux les manipuler*/
+.element{
+    background-color: #9c7171;
+    border: 2px solid var(--border) ;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
 }
