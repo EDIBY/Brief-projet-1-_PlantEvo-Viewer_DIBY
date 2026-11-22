@@ -7,7 +7,7 @@
     --vert-fonce: #17452E;
     --gras : bold;
     --vert-pied-page: #4B9936;
-    --vert-paragraphe:#405A49;
+    --vert-paragraphe:#131f17;
     --vert-st: #55A963;
     --limit-mots-ligne: 70ch;
 }
@@ -40,7 +40,7 @@ h3 {
 p {
     color:var(--vert-paragraphe);
     line-height: 1.6;
-    max-width: var(--limit-mots-ligne);
+    
 }
 
 /*Definit la coleur et la position du text contenu dans <footer></footer> de notre page htlm*/
