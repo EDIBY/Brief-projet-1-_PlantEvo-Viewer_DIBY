@@ -1,4 +1,11 @@
 
+/*box-sizing: border-box, deefinit la taille exact des boites en integrant la padding et le border*/
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 /*Déclaration de variable */
 :root {
     --fond-page : #F5FBF0;
@@ -24,7 +31,9 @@ body {
 
 /*Pour empecher le texte de toucher le bord sur un petit ecran */
 main{
+    margin: 0 auto;
     padding:0 1rem ;
+
 }
 
 /*Definit la coleur et met en gras le text contenu dans <h1></h1> de notre page htlm*/
@@ -58,9 +67,16 @@ footer {
 
 /*Distinguer les artciles pour mieux les manipuler*/
 .element{
-    background-color: #9c7171;
+    background-color: #eddbdb;
     border: 2px solid var(--border) ;
     border-radius: 12px;
     padding: 1.5rem;
     margin-bottom: 2rem;
+}
+.element img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 8px;
 }
