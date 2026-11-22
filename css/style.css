@@ -1,33 +1,51 @@
+
+/*Déclaration de variable */
+:root {
+    --fond-page : #F5FBF0;
+    --police--titres:Georgia, "Times New Roman", serif;
+    --police--texts:system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
+    --vert-fonce: #17452E;
+    --gras : bold;
+    --vert-pied-page: #4B9936;
+    --vert-paragraphe:#405A49;
+    --vert-st: #55A963;
+    --limit-mots-ligne: 70ch;
+}
+
+
 /*Definit la couleur du fond de notre page web, la coleur des éléments, la police du text
 du contenu de <body></body> de notre page htlm */
 
 body {
     background-image: url(../images_acceuille/Rectangle\ 1.png);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:var(--police--texts);    
 }
 
 /*Definit la coleur et met en gras le text contenu dans <h1></h1> de notre page htlm*/
 
 h1 {
-    color: #17452E;
+    color:var(--vert-fonce);
     font-weight: bold;
 }
 
 /*Definit la coleur du text contenu dans <h3></h3> de notre page htlm*/
 
 h3 {
-    color: #55A963;
+    color: var(--vert-st);
+   
 }
 
 /*Definit la coleur du text contenu dans <p></p> de notre page htlm*/
 
 p {
-    color:#405A49
+    color:var(--vert-paragraphe);
+    line-height: 1.6;
+    max-width: var(--limit-mots-ligne);
 }
 
 /*Definit la coleur et la position du text contenu dans <footer></footer> de notre page htlm*/
 
 footer {
-    color: #4B9936;
+    color: var(--vert-pied-page);
     text-align: center;
 }
