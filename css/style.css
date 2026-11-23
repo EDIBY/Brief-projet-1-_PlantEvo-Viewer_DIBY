@@ -1,5 +1,5 @@
 
-/*box-sizing: border-box, deefinit la taille exact des boites en integrant la padding et le border*/
+/*box-sizing: border-box, definit la taille exact des boites en integrant la padding et le border*/
 *,
 *::before,
 *::after{
@@ -25,14 +25,16 @@
 du contenu de <body></body> de notre page htlm */
 
 body {
+    margin:0;
     background-image: url(../images_acceuille/Rectangle\ 1.png);
-    font-family:var(--police--texts);    
+    font-family:var(--police--texts);   
+    line-height: 1.6; 
 }
 
 /*Pour empecher le texte de toucher le bord sur un petit ecran */
 main{
-    margin: 0 auto;
-    padding:0 1rem ;
+    max-width: 50rem;
+    padding: 1.5rem  1rem  3rem;
 
 }
 
@@ -80,3 +82,24 @@ footer {
     margin: 0 auto 1rem;
     border-radius: 8px;
 }
+
+/*==== EN-TÊTE ====*/
+.entete .navigation{
+display: flex;
+padding: 0.75m 1.5m;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.entete{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-items: center;
+    color:#6DCA87 ;
+    text-decoration: none;
+    gap:0,
+}
+
